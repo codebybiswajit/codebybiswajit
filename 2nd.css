@@ -1,0 +1,24 @@
+
+form{
+    background-color: #808080;
+} 
+body{
+    background-color: #808080;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+a{
+    color: #804;
+    text-decoration: none;
+}
+fieldset{
+    align-items: baseline;
+    color: rgba(193, 155, 155, 0.667);
+}
+#name{
+    text-align: center;
+}
