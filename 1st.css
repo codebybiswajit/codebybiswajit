@@ -1,7 +1,7 @@
 header{
     /* background-color: aqua; */
-    width: auto;
-    height: 140px;
+    width: 400px;
+    height: auto;
 }
 form{
     background-color: #fa1d1d;
@@ -23,33 +23,40 @@ nav{
 }
 a{
     color: rgb(249, 250, 249);
-    font-size: large;
-    align-self: center;
-    text-align: center;
+    background-color: transparent;
     text-decoration: none;
     /* padding-right:100px ; */
-    padding-left :40px ;
-    margin-left: 120px;
 }
 a:hover{
-    color: #808080;
+    color: cyan;
 }
 main{
     /* color: #808080; */
     background-color: #808080;
 }
-video {
-    width: 250px;
-    height : 250px;
-    padding-left: 30px;
-    cursor: not-allowed;
-    
+.mail{
+    color: blue;
 }
+iframe { 
+    width:fit-content;
+    height: auto;
+    margin-bottom: 20px; 
+    /* margin-left: 20px; */
+    margin-right: 30px;
+    margin-top: 20px;
+
+} 
+.bold{
+    color: red;
+}
+/* iframe {
+    width: 420px;
+    height : 315px;
+} */
 CSS.WebContainer {
      width: 100% ; 
      height: auto ; 
-    }
-.articles 
+    }.articles 
 { 
     width:90%;
     /*Takes 90% width from WebContainer*/ 
@@ -79,4 +86,10 @@ h2{
 }
 h1{
     text-align: center;
+}
+body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
