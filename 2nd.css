@@ -4,21 +4,31 @@ form{
 } 
 body{
     background-color: #808080;
+    margin-top: 10%;margin-bottom: 10%;margin-left:20%;margin-right: 20%;
 }
 h1{
     text-align: center;
+    text-align: auto;
 }
 h2{
-    text-align: center;
+    text-align: center;        
+    text-align: auto   ;        
 }
 a{
     color: #804;
     text-decoration: none;
 }
 fieldset{
-    align-items: baseline;
-    color: rgba(193, 155, 155, 0.667);
+    align-items: auto;
+    color: rgba(0, 0, 0, 0.667);
 }
 #name{
     text-align: center;
+}
+#reset,#submit{
+    height: auto;
+    width: 60px;
+    padding-right: 10ps;
+    border-radius: 10px;
+    border-color: cyan;
 }
