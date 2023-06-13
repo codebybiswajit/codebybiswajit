@@ -45,9 +45,19 @@ video {
     cursor: not-allowed;
     
 }
+CSS.WebContainer {
+     width: 100% ; 
+     height: auto ; 
+    }
+.articles 
+{ 
+    width:90%;
+    /*Takes 90% width from WebContainer*/ 
+    height: auto ; 
+    margin: auto ; }
 .F{
-    width: 300px;
-    height: 300px;
+    width: 20%;
+    height: auto;
     padding-left: 40%;
     /* align-content: center;
     align-items: center;
